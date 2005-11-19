@@ -1,12 +1,12 @@
 Summary:	xconsole application
 Summary(pl):	Aplikacja xconsole
 Name:		xorg-app-xconsole
-Version:	0.99.1
+Version:	0.99.2
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/app/xconsole-%{version}.tar.bz2
-# Source0-md5:	88544cf6ff7d1da4a4c8ae97be8c5c3d
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC2/app/xconsole-%{version}.tar.bz2
+# Source0-md5:	d2c7c08d08fe880ad7c86e13d7c2ab3a
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
