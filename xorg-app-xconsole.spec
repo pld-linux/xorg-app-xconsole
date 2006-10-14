@@ -2,13 +2,14 @@ Summary:	xconsole application
 Summary(pl):	Aplikacja xconsole
 Name:		xorg-app-xconsole
 Version:	1.0.2
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xconsole-%{version}.tar.bz2
 # Source0-md5:	8678ddd23573022d68dcd883ae239be8
 Source1:	xconsole.desktop
 Source2:	xconsole.png
+Source3:	xconsole.1x.it
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -45,6 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 
 install -D %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}/xconsole.desktop
 install -D %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}/xconsole.png
+install -D %{SOURCE3} $RPM_BUILD_ROOT%{_mandir}/it/man1/xconsole.1x
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -52,8 +54,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog
-%attr(755,root,root) %{_bindir}/*
-%{_datadir}/X11/app-defaults/*
+%attr(755,root,root) %{_bindir}/xconsole
+%{_datadir}/X11/app-defaults/XConsole
 %{_desktopdir}/xconsole.desktop
 %{_pixmapsdir}/xconsole.png
-%{_mandir}/man1/*.1x*
+%{_mandir}/man1/xconsole.1x*
+%lang(it) %{_mandir}/it/man1/xconsole.1x*
