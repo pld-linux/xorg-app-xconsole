@@ -1,5 +1,5 @@
 Summary:	xconsole application
-Summary(pl):	Aplikacja xconsole
+Summary(pl.UTF-8):   Aplikacja xconsole
 Name:		xorg-app-xconsole
 Version:	1.0.2
 Release:	1
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xconsole application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xconsole.
 
 %prep
