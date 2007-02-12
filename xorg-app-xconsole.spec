@@ -1,5 +1,5 @@
 Summary:	xconsole application
-Summary(pl.UTF-8):   Aplikacja xconsole
+Summary(pl.UTF-8):	Aplikacja xconsole
 Name:		xorg-app-xconsole
 Version:	1.0.2
 Release:	1
