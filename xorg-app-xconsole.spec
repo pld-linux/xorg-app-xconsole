@@ -1,5 +1,5 @@
-Summary:	xconsole application
-Summary(pl.UTF-8):	Aplikacja xconsole
+Summary:	xconsole application to monitor system console messages with X
+Summary(pl.UTF-8):	Aplikacja xconsole do monitorowania komunikatów konsoli systemowej pod X
 Name:		xorg-app-xconsole
 Version:	1.0.3
 Release:	1
@@ -21,10 +21,12 @@ Requires:	xorg-lib-libXt >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xconsole application.
+The xconsole program displays messages which are usually sent to
+/dev/console.
 
 %description -l pl.UTF-8
-Aplikacja xconsole.
+Program xconsole wyświetla komunikaty, które zwykle są wysyłane na
+/dev/console.
 
 %prep
 %setup -q -n xconsole-%{version}
