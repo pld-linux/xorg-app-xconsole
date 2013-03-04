@@ -19,6 +19,7 @@ BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-lib-libXt-devel >= 1.0.0
 BuildRequires:	xorg-proto-xproto-devel >= 7.0.17
 BuildRequires:	xorg-util-util-macros >= 1.8
+Requires:	xorg-font-font-misc-misc-base
 Requires:	xorg-lib-libXt >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
