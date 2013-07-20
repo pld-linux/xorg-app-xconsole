@@ -63,5 +63,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/X11/app-defaults/XConsole
 %{_desktopdir}/xconsole.desktop
 %{_pixmapsdir}/xconsole.png
-%{_mandir}/man1/xconsole.1x*
-%lang(it) %{_mandir}/it/man1/xconsole.1x*
+%{_mandir}/man1/xconsole.1*
+%lang(it) %{_mandir}/it/man1/xconsole.1*
