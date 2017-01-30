@@ -1,16 +1,16 @@
 Summary:	xconsole application to monitor system console messages with X
 Summary(pl.UTF-8):	Aplikacja xconsole do monitorowania komunikatów konsoli systemowej pod X
 Name:		xorg-app-xconsole
-Version:	1.0.6
-Release:	2
+Version:	1.0.7
+Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/individual/app/xconsole-%{version}.tar.bz2
-# Source0-md5:	5f2f9d97bd078715dffea2fd05b53544
+Source0:	https://xorg.freedesktop.org/releases/individual/app/xconsole-%{version}.tar.bz2
+# Source0-md5:	5c42e161fcd4289a463366e17683598a
 Source1:	xconsole.desktop
 Source2:	xconsole.png
 Source3:	xconsole.1x.it
-URL:		http://xorg.freedesktop.org/
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
